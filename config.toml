@@ -1,0 +1,6 @@
+baseURL = "https://json-schema-language.org/"
+languageCode = "en-us"
+title = "JSON Schema Language"
+uglyurls = true
+pygmentsCodefences = true
+pygmentsStyle = "vs"
