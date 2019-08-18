@@ -1,6 +1,6 @@
-baseURL = "https://json-schema-language.org/"
+baseURL = "https://jddf.io/"
 languageCode = "en-us"
-title = "JSON Schema Language"
+title = "JSON Data Definition Language"
 uglyurls = true
 pygmentsCodefences = true
 pygmentsStyle = "vs"
