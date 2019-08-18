@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <title>JSON Schema Language</title>
+  <title>JSON Data Definition Format</title>
 
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   <link
@@ -9,7 +9,7 @@
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
   />
   <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Mono:300,400,500"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Mono:300,400,500"
     rel="stylesheet"
   />
 
@@ -28,8 +28,15 @@
           check
         </button>
         <span class="mdc-top-app-bar__title">
-          JSON Schema Language
+          JSON Data Definition Format
         </span>
+      </section>
+
+      <section
+        class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+      >
+        <a class="jddf-top-app-bar-link" href="/docs/index.html">Docs</a>
+        <a class="jddf-top-app-bar-link" href="/blog/index.html">Blog</a>
       </section>
     </div>
   </header>
@@ -39,12 +46,12 @@
   {{ block "main" . }}
   {{ end }}
 
-  <footer class="jsl-footer">
-    <div class="jsl-footer__inner">
+  <footer class="jddf-footer">
+    <div class="jddf-footer__inner">
       <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
           <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12">
-            <p class="mdc-typography--headline6">JSON Schema Language</p>
+            <p class="mdc-typography--headline6">JSON Data Definition Format</p>
           </div>
         </div>
         <div class="mdc-layout-grid__inner">
@@ -52,14 +59,14 @@
             class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
           >
             <p class="mdc-typography--body2">
-              JSON Schema Language is an open-source project. Please feel free
-              to ask questions or contribute by checking out any of the links to
-              the right.
+              JSON Data Definition Format is an open-source project. Please feel
+              free to ask questions or contribute by checking out any of the
+              links to the right.
             </p>
 
             <p class="mdc-typography--body2">
-              Whenever interacting with the JSON Schema Language community,
-              please adhere to our
+              Whenever interacting with the JSON Data Definition Format
+              community, please adhere to our
 
               <a
                 href="https://www.contributor-covenant.org/version/1/4/code-of-conduct"
@@ -69,7 +76,7 @@
             </p>
 
             <p class="mdc-typography--body2">
-              © 2019 JSON Schema Language contributors
+              © 2019 JSON Data Definition Format contributors
             </p>
           </div>
 
@@ -81,9 +88,7 @@
             </p>
 
             <p class="mdc-typography--body2">
-              <a
-                href="https://tools.ietf.org/html/draft-json-schema-language-01"
-              >
+              <a href="https://tools.ietf.org/html/draft-ucarion-jddf-00">
                 IETF Internet-Draft
               </a>
             </p>
