@@ -7,13 +7,15 @@ $mdc-theme-on-secondary: #000000;
 @import "@material/icon-button/mdc-icon-button";
 @import "@material/typography/mdc-typography";
 @import "@material/button/mdc-button";
+@import "@material/card/mdc-card";
 @import "@material/layout-grid/mdc-layout-grid";
 
 body {
   margin: 0;
 }
 
-code {
+code,
+code pre {
   font-family: "Roboto Mono", monospace;
 }
 
@@ -64,6 +66,15 @@ code {
 .jddf-index-section1-cta-button {
   margin-top: 20px;
   padding: 28px;
+}
+
+.jddf-index-section1-card-top {
+  padding-left: 8px;
+  overflow: scroll;
+}
+
+.jddf-index-section1-card-button {
+  text-transform: none;
 }
 
 .jddf-index-section3 {

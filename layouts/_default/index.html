@@ -4,7 +4,7 @@
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
         <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8-desktop"
+          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
         >
           <h1 class="mdc-typography--headline3 jddf-index-section1-header">
             Be more productive with JSON
@@ -23,6 +23,38 @@
               arrow_forward
             </i>
           </a>
+        </div>
+        <div
+          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1-desktop"
+        ></div>
+        <div
+          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5-desktop"
+        >
+          <div class="mdc-card jddf-index-section1-card">
+            <div class="jddf-index-section1-card-top">
+              <code>
+                <pre>
+{
+  "properties": {
+    "id": { "type": "string" },
+    "createdAt": { "type": "timestamp" },
+    "favoriteNumbers": {
+      "elements": { "type": "float64" }
+    }
+  },
+  "optionalProperties": {
+    "deletedAt": { "type": "timestamp" }
+  }
+}</pre>
+              </code>
+            </div>
+            <div class="mdc-card__actions">
+              <button class="mdc-button mdc-card__action mdc-card__action--button jddf-index-section1-card-button" disabled>
+                <code>user.jddf.json</code>
+              </button>
+            </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
