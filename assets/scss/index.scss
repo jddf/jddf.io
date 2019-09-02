@@ -20,10 +20,15 @@ code pre {
 }
 
 .jddf-top-app-bar-link {
-  margin-right: 64px;
+  display: none;
   text-decoration: none;
   color: $mdc-theme-on-primary;
   font-weight: bold;
+
+  @media screen and (min-width: #{map-get($mdc-layout-grid-breakpoints, "tablet")}) {
+    display: block;
+    margin-right: 64px;
+  }
 }
 
 .jddf-mainmatter {
@@ -66,11 +71,16 @@ code pre {
 .jddf-index-section1-cta-button {
   margin-top: 20px;
   padding: 28px;
+  margin-bottom: 40px;
 }
 
 .jddf-index-section1-card-top {
   padding-left: 8px;
-  overflow: scroll;
+  overflow-x: scroll;
+
+  @media screen and (min-width: #{map-get($mdc-layout-grid-breakpoints, "tablet")}) {
+    overflow-x: hidden;
+  }
 }
 
 .jddf-index-section1-card-button {

@@ -3,37 +3,37 @@
   <div class="jddf-index-section__inner">
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
-        >
-          <h1 class="mdc-typography--headline3 jddf-index-section1-header">
-            Be more productive with JSON
-          </h1>
-          <p class="mdc-typography--body1 jddf-index-section1-subtitle">
-            JDDF is a <strong>schema language for JSON</strong> that you can use
-            to generate validators and types for any language.
-          </p>
-
-          <a
-            class="mdc-button mdc-button--raised jddf-index-section1-cta-button"
-            href="/docs/getting-started.html"
+          <div
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-6-desktop"
           >
-            <span class="mdc-button__label">Get started</span>
-            <i class="material-icons mdc-button__icon" aria-hidden="true">
-              arrow_forward
-            </i>
-          </a>
-        </div>
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1-desktop"
-        ></div>
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5-desktop"
-        >
-          <div class="mdc-card jddf-index-section1-card">
-            <div class="jddf-index-section1-card-top">
-              <code>
-                <pre>
+            <h1 class="mdc-typography--headline3 jddf-index-section1-header">
+              Be more productive with JSON
+            </h1>
+            <p class="mdc-typography--body1 jddf-index-section1-subtitle">
+              JDDF is a <strong>schema language for JSON</strong> that you can
+              use to generate validators and types for any language.
+            </p>
+
+            <a
+              class="mdc-button mdc-button--raised jddf-index-section1-cta-button"
+              href="/docs/getting-started.html"
+            >
+              <span class="mdc-button__label">Get started</span>
+              <i class="material-icons mdc-button__icon" aria-hidden="true">
+                arrow_forward
+              </i>
+            </a>
+          </div>
+          <div
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1-desktop"
+          ></div>
+          <div
+            class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-mobile mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-5-desktop"
+          >
+            <div class="mdc-card jddf-index-section1-card">
+              <div class="jddf-index-section1-card-top">
+                <code>
+                  <pre>
 {
   "properties": {
     "id": { "type": "string" },
@@ -45,14 +45,18 @@
   "optionalProperties": {
     "deletedAt": { "type": "timestamp" }
   }
-}</pre>
-              </code>
-            </div>
-            <div class="mdc-card__actions">
-              <button class="mdc-button mdc-card__action mdc-card__action--button jddf-index-section1-card-button" disabled>
-                <code>user.jddf.json</code>
-              </button>
-            </div>
+}</pre
+                  >
+                </code>
+              </div>
+              <div class="mdc-card__actions">
+                <button
+                  class="mdc-button mdc-card__action mdc-card__action--button jddf-index-section1-card-button"
+                  disabled
+                >
+                  <code>user.jddf.json</code>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -85,6 +89,13 @@
             platform-independent way describe the shape of your data, and every
             implementation produces the exact same validation errors.
           </p>
+
+          <a
+            class="mdc-button mdc-button--outlined"
+            href="/docs/implementations.html"
+          >
+            <span class="mdc-button__label">View implementations</span>
+          </a>
         </div>
 
         <div
@@ -99,6 +110,15 @@
             TypeScript interfaces, Golang structs, Java classes, and much more
             from your schemas using the <code>jddf-codegen</code> tool.
           </p>
+
+          <a
+            class="mdc-button mdc-button--outlined"
+            href="/docs/tools/jddf-codegen.html"
+          >
+            <span class="mdc-button__label"
+              >More on <code>jddf-codegen</code></span
+            >
+          </a>
         </div>
 
         <div
@@ -115,37 +135,7 @@
             schemas. Plus, JDDF is dead simple, so it's easy to build your own
             tooling too.
           </p>
-        </div>
-      </div>
 
-      <div class="mdc-layout-grid__inner">
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop"
-        >
-          <a
-            class="mdc-button mdc-button--outlined"
-            href="/docs/implementations.html"
-          >
-            <span class="mdc-button__label">View implementations</span>
-          </a>
-        </div>
-
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop"
-        >
-          <a
-            class="mdc-button mdc-button--outlined"
-            href="/docs/tools/jddf-codegen.html"
-          >
-            <span class="mdc-button__label"
-              >More on <code>jddf-codegen</code></span
-            >
-          </a>
-        </div>
-
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop"
-        >
           <a
             class="mdc-button mdc-button--outlined"
             href="https://github.com/jddf/jddf-react"
@@ -184,6 +174,10 @@
             before, you can probably learn all of JDDF in less time than it
             takes to brew a coffee.
           </p>
+
+          <a class="mdc-button mdc-button--outlined" href="/tutorial.html">
+            <span class="mdc-button__label">Learn JDDF in 5 minutes</span>
+          </a>
         </div>
 
         <div
@@ -198,21 +192,7 @@
             <code>jddf-infer</code> tool on it, and a working schema will pop
             out. It all runs on your machine, so your data is secure.
           </p>
-        </div>
-      </div>
 
-      <div class="mdc-layout-grid__inner">
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
-        >
-          <a class="mdc-button mdc-button--outlined" href="/tutorial.html">
-            <span class="mdc-button__label">Learn JDDF in 5 minutes</span>
-          </a>
-        </div>
-
-        <div
-          class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop"
-        >
           <a
             class="mdc-button mdc-button--outlined"
             href="/docs/tools/jddf-infer.html"
